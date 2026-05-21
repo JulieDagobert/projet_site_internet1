@@ -1,0 +1,79 @@
+/* reset de base */
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+/* ==========================================================================
+   TYPOGRAPHIE
+   ========================================================================== */
+@font-face {
+    font-family: 'Ruda-regular';
+    src: url('../Fontes/Ruda-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Sprat-Regular';
+    src: url('../Fontes/Sprat-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Ruda-Bold';
+    src: url('../Fontes/Ruda-Bold.ttf');
+}
+
+
+/* ==========================================================================
+   LAYOUT PRINCIPAL
+   ========================================================================== */
+body{
+    margin:0;
+    margin-top: 20px;
+    font-size:18px;
+    font-family: 'Ruda-regular';
+    color: rgb(15, 50, 125);
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(139, 164, 220));
+}
+
+h1{
+    font-size: 80px;
+    font-family: Sprat-Regular;
+    color: rgb(255, 107, 102);
+}
+
+.type_projet{
+    font-size: 22px;
+    font-family: 'ruda-bold';
+}
+
+.main-content{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.left-align{
+    float:left;
+    width:60%;
+    padding-right: 30px;
+}
+
+.right-align{
+    float:left;
+    width:40%;
+    padding-left: 30px;
+}
+
+.main-content img{
+    width:100%;
+    border-radius: 5%;
+    margin-bottom: 60px;
+}
+
+.clear-fixe{
+    clear:both;
+}
